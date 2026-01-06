@@ -10,8 +10,8 @@ from telegram.ext import (
 )
 
 # ========= CONFIG =========
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
-OWNER_ID = int(os.environ.get("OWNER_ID"))
+BOT_TOKEN = os.environ.get("8275637960:AAGVhL33pMp0vXRdgXzfaZqF5rYuHwDfrPw")
+OWNER_ID = int(os.environ.get("8588773170"))
 WEBHOOK_URL = os.environ.get("WEBHOOK_URL")  # https://xxx.onrender.com
 PORT = int(os.environ.get("PORT", 10000))
 
@@ -276,3 +276,4 @@ if __name__ == "__main__":
     import asyncio
     asyncio.get_event_loop().run_until_complete(main())
     app.run(host="0.0.0.0", port=PORT)
+
